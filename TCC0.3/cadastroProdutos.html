@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="css/styles3.css">
+    <link rel="icon" href="Icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <style>
+        body{
+     margin: 0;
+     padding: 0;
+     background-image: url(imagens/mrprotein.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+    }
+</style>
+
+<div class="container">
+    <a href="teste.html">
+        <img src="SetaEsquerda.png" alt="Voltar" class="imagem">
+      </a>      
+    <div class="Cadastro-form">
+    <h1>Cadastro de Produtos</h1>
+    <br></br>
+
+    <form>
+    <div class="form-container">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Digite o nome">
+           
+    <label for="tipo">Tipo de Produto:</label>
+    <input type="text" id="tipo" placeholder="Insira o tipo do produto">
+           
+    <label for="quantidade">Qtd em Estoque:</label>
+    <input type="number" id="quantidade" placeholder="Insira a quantidade">
+           
+    <label for="preco">Preço:</label>
+    <input type="text" id="preco" placeholder="Insira o preço">
+           
+    <label for="validade">Validade:</label>
+    <input type="date" id="validade" placeholder="Insira a validade">
+           
+           
+    <div class="btn-group">
+    <button type="button" class="cancel">Cancelar</button>
+    <button type="submit" class="submit">Cadastrar</button>
+
+</div>
+</form>
+
+    <span class="icon">&#128230;</span>
+
+</div>
+</body>
+</html>

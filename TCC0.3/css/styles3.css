@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #202020;
+}
+
+
+.container {
+    background-color: #d1865a;
+    background-color: rgba(114, 114, 114, 0.999); /* Fundo semi-transparente para destacar o formulário */
+    padding: 90px;
+    border-radius: 10px;
+    height: 400px;
+    width: 470px;
+    max-width: 90%;
+    position: relative;
+}
+ 
+.container h1 {
+    margin: 0;
+    color: white;
+}
+ 
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.form-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adiciona um espaçamento entre os campos */
+    width: 350px; /* Largura do formulário(OS QUADRADOS) */
+  }
+   
+  .form-container label {
+    margin-bottom: 5px; /* Espaçamento entre o label e o input */
+  }
+   
+  .form-container input {
+    padding: 8px;
+    font-size: 16px;
+  }
+   
+ 
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ 
+.btn-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn-group .cancel {
+    transition: background-color 0.3s;
+    margin-left: 300px;
+    border: 2px solid #000000; 
+    color:rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+
+.btn-group .submit {
+    transition: background-color 0.6s;
+    margin-left: 20px;
+    border: 2px solid #000000; 
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+  
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d48d6e;
+}
+ 
+
+.icone {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 116px; /* Defina o tamanho do ícone */
+    height: 75px;
+}
+
+.Cadastro-form{
+    margin-right: 70px;
+    margin-top: -100px;
+    padding: 30px;
+
+}
+ 
+.icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 70px;
+    color: white;
+}
+
+.imagem {
+    height: 3   0px;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+

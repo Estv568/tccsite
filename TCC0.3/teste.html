@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(imagens/mrprotein.png);
+            background-size: cover;  /* Faz a imagem cobrir todo o fundo */
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #painelC{
+            position: relative;
+            top: -90px;
+            left: 16    0px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .panel {
+            background-color: rgba(114, 114, 114, 0.999);
+            padding: 100px;
+            border-radius: 10px;
+            display: flex;
+            gap: 100px;
+        }
+        .panel div {
+            background-color: #000000;
+            padding: 80px;
+            border-radius: 10px;
+            width: 150px;
+            transition: transform 0.3s;
+        }
+
+        .panelFornecedor{
+            background-color: #000000;
+            position: relative;
+            top: -20px;
+            padding: 80px;
+            border-radius: 10px;
+            width: 150px;
+            transition: transform 0.3s;
+        }
+
+        .panel div:hover {
+            transform: scale(1.05);
+        }
+        .panel img {
+            width: 150px;
+            height: 150px;
+        }
+        .panel p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .imagem {
+       height: 3   0px;
+       width: 35px;
+       position: absolute;
+       top: 200px;
+       left: 110px;
+       } 
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="index.html">
+            <img src="SetaEsquerda.png" alt="Voltar" class="imagem">
+          </a>
+        <div class="panel"> 
+            <h1 id="painelC">Painel de Controle</h1>
+            <a href="cadastroFornecedor.html">
+                <div>
+                <img src="ImagemFORNECEDOR.jpg" alt="Controle de Fornecedores">
+                 <p>Controle de Fornecedores</p> 
+                </div>
+            </a>
+            <a href="cadastroProdutos.html">
+                <div>
+                 <img src="imagemPRODUTO.jpg" alt="Cadastro de Produtos">
+                <p>Controle de Produtos</p>
+                </div>
+            </a>
+            <a href="controle-vendas.html">
+                <div>
+                    <img src="chsoso.jpeg" alt="Controle de Vendas">
+                    <p>Controle de Administradores</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+ 
+.login-container {
+
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+ 
+.login-box {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    background-color: #f4f4e6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+ 
+.avatar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.avatar::before {
+    content: '👤'; /* Ícone de avatar */
+    font-size: 150px;
+    color: #fff;
+}
+ 
+.login-form {
+    padding: 20px 30px;
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+h2 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+ 
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+.password-field {
+    position: relative;
+}
+ 
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+ 
+.buttonEntrar {
+    margin-left:330px;
+    position: relative;
+    top: -35px;
+    padding: 10px;
+    border: 2px solid #000000; 
+    color:rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 13px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #a6654a;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr.Protein</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="Icon.png" type="image/x-icon">
+    
+</head>
+<body>
+    <style>
+       body{
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/mrprotein.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+       }
+
+    .button{
+        transition: background-color 0.3s;
+        margin-left: 150px;
+        position: relative;
+        left: 80px;
+        top: 5px;
+        border: 2px solid #000000; 
+        color:rgb(0, 0, 0); 
+        padding:10px 6px; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        color: rgb(0, 0, 0);
+    
+    }
+
+    button:hover{
+    background-color: #d1865a;
+    }
+
+</style>
+    <div class="login-container">
+        <div class="login-box">  
+            <div class="avatar">
+                <!-- Icone do usuário -->
+            </div>
+
+            <div class="login-form">
+                <h2>Login</h2>
+                <br></br>
+                <form>
+                    <label for="cpf">Digite seu CPF e Senha:</label>
+                    <input type="text" id="cpf" placeholder="Ex: 123.456.789-00">
+                    <div class="password-field">
+                        <input type="password" id="senha" placeholder="Digite sua senha">
+                        <span class="toggle-password" onclick="togglePasswordVisibility()">
+                         
+                        </span>
+                    </div>
+                    <a href="cadastroClientes.html"><button type="button" class="button"> Criar conta</button>
+                    </a>
+                     
+                    <a href="teste.html"><button type="button" class="buttonEntrar"> Entrar</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
+ 
